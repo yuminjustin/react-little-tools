@@ -8,7 +8,8 @@ react little tools
 
          import toast from '你的路径/toast';
          toast(msg,duration);
+         //  msg：消息文本   duration：持续时间（可选，默认3.5秒）
          
-msg：消息文本   duration：持续时间（可选，默认3.5秒）
+
 
 more...
