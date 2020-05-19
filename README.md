@@ -3,7 +3,7 @@ react little tools
 小工具，直接调用，无需挂载；简单至极，没有花里胡哨功能，适合轻量项目
 
 <blockquote>
-    Toast，消息小窗
+    Toast，消息小窗，自毁型
 </blockquote>
 
          import toast from '你的路径/toast';
