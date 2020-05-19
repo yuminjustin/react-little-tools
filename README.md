@@ -1,6 +1,6 @@
 # react-little-tools
 react little tools
-小工具，直接调用，无需挂载；
+小工具，直接调用，无需挂载；适合轻量项目
 
 <blockquote>
     Toast，手机端消息小窗
