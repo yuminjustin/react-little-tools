@@ -30,8 +30,10 @@ class Toast extends Component {
 }
 
 export default (msg, duration) => {
-  let dom = $d.createElement("div");
-  duration = duration || 3500;
-  $d.body.appendChild(dom);
-  render(<Toast dom={dom} msg={msg} duration={duration} />, dom);
+  if (msg) {
+    let dom = $d.createElement("div");
+    duration = duration || 3500;
+    $d.body.appendChild(dom);
+    render(<Toast dom={dom} msg={msg} duration={duration} />, dom);
+  } else return;
 };
