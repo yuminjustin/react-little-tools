@@ -10,3 +10,5 @@ react little tools
          toast(msg,duration);
          
 msg：消息文本   duration：持续时间（可选，默认3.5秒）
+
+more...
